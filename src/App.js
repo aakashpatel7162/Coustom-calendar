@@ -1,5 +1,5 @@
 import "./styles.css";
-import Calendar from "./Calender";
+import Calendar from "./Calendar";
 export default function App() {
   return (
     <div className="App">
