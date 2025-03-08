@@ -4,7 +4,6 @@ import "./styles.css";
 
 const Calendar = () => {
   const [currentMonth, setCurrentMonth] = useState(moment());
-
   const startOfMonth = currentMonth.startOf("month");
   const endOfMonth = currentMonth.endOf("month");
   const daysInMonth = currentMonth.daysInMonth();
